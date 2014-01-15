@@ -1,0 +1,4 @@
+INDEX VERSION 1.122+/home/kfreyerm/workspace_test/Covoiturage/Covoiturage/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4270305307.index
+3155019133.index
+1029822074.index

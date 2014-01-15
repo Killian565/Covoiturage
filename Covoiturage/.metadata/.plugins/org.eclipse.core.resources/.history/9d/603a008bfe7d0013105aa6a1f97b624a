@@ -1,0 +1,10 @@
+-<persistence xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" version="2.0">
+ -<persistence-unit name="cours" transaction-type="JTA">
+<provider>org.hibernate.ejb.HibernatePersistence</provider>
+<jta-data-source>java:/DefaultDS</jta-data-source>
+<class>Person</class>
+	-<properties>
+<property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+</properties>
+</persistence-unit>
+</persistence>

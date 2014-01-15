@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<style>
+/* Styles utiles à la mise en page */
+header {
+   height: 100px;
+}
+section {
+   height: 300px;
+}
+footer {
+   height: 50px;
+}
+.bloc {
+   height: 150px;
+}
+/* Les styles suivants sont juste pour faire apparaître la mise en page */
+.span12 {
+   background-color:#0CF;
+}
+.span6 {
+   background-color:#EE0;
+}
+[class="span3 bloc"] {
+   background-color:#F60;
+}
+[class="span3 bloc"]:first-child {
+   background-color:#090;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <header class="span12"></header>
+    <aside class="span3">
+      <div class="row">
+        <div class="span3 bloc"></div>
+        <div class="span3 bloc"></div>
+      </div>
+    </aside>
+    <section class="span6"></section>
+    <aside class="span3">
+      <div class="row">
+        <div class="span3 bloc"></div>
+        <div class="span3 bloc"></div>
+      </div>
+    </aside>
+    <footer class="span12"></footer>
+  </div>
+</div>
+</body>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<meta charset="utf-8">
+		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <title>Allonsyensemble</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <!-- Font-Awesome -->
+        <link href="Font-Awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- My style -->
+        <link href="css/style.css" rel="stylesheet" media="screen">
+		
+		
+		<style>
+		
+		.navbar {
+			*position: relative;
+			*z-index: 2;
+			margin-bottom: 0px;
+			overflow: visible;
+			color: #555555;
+		}
+		
+		.navbar-inner {
+			min-height: 40px;
+			padding-right:20px;
+			padding-left: 20px;
+			background-color: #fafafa;
+			background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+			background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+			background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+			background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+			background-repeat: repeat-x;
+			border: 1px solid #d4d4d4;
+			-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+					border-radius: 4px;
+			filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+			-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+				-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+					box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+		}
+		
+		.hero-unit {
+			padding: 60px;
+			margin-bottom: 30px;
+			background-color: #eeeeee;
+			-webkit-border-radius: 6px;
+				-moz-border-radius: 6px;
+					border-radius: 6px;
+		}
+		
+
+		
+	.icone li {
+		width: 60px;
+		height: 60px;
+		display: inline-block;
+		background-image: url("./images/sprite.png");
+		background-repeat: no-repeat;
+	}
+		
+	.icone-1 { background-position: left top; }
+	.icone-2 { background-position: 40% top; }
+			
+			
+	.icone-1:hover { background-position: left bottom; }
+	.icone-2:hover { background-position: 40% bottom; }
+	
+	trajet, france
+	{
+		display: inline-block;
+		text-align: justify;
+	}
+	
+	
+	trajet
+	{
+		vertical-align: top;
+		width : 505px;
+		margin-right : 15px;
+	}
+	
+	france
+	{
+	position: relative;
+    width: 235px;
+	margin-top : 56px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+	}
+	
+	decalage
+	{
+	margin-top : 10px;
+	}
+	
+	
+	</style>
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+    </head>
+	
+	
+    <body>
+	
+	
+	
+	
+
+	
+	
+	
+	
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">Allons<font color="#ECB126">y</font>ensemble</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="./index.html">Accueil</a>
+              </li>
+              <li class="">
+                <a href="./cherchertrajet.html">Chercher un trajet</a>
+              </li>
+              <li class="">
+                <a href="./proposertrajet.html">Proposer un trajet</a>
+              </li>
+              <li class="">
+                <a href="./monprofil.html">Mon profil</a>
+              </li>
+              <li class="">
+                <a href="./mestrajets.html">Mes trajets</a>
+              </li>
+			  
+                <li class="dropdown">
+                  <a href="./javascript.html" class="dropdown-toggle" data-toggle="dropdown">Les utilisateurs <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Mes amis</a></li>
+                    <li class="divider"></li>
+					<li><a href="#">Mes bannis</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Autres utilisateurs</a></li>
+                  </ul>
+                </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+		<div class="hero-unit">
+	
+
+		<!-- NE DOIT APPARAITRE QUE LORSQU'ON EST CONNECTE -->
+		<span class="label label-inverse">Connecté en tant que <span style="color:#80AFFF">Killian</span></span>
+		<button class="btn btn-warning btn-mini" type="submit">Déconnexion</button>
+		<!-- /NE DOIT APPARAITRE QUE LORSQU'ON EST CONNECTE -->
+		
+		
+		<!-- Boutons twitter et facebook -->
+		
+		<decalage>
+		<ul class="icone">
+			<li class="icone-1 pull-right"></li>
+			<li class="icone-2 pull-right"></li>
+		</ul>
+		</decalage>
+		
+		<!-- Fin Boutons twitter et facebook -->
+			<h1>Allons<font color="#ECB126">y</font>ensemble</h1>
+			<p>site de covoiturage en France</p>
+			
+	
+			<!-- Bouton rechercher -->
+		<form class="well form-search">
+			<h2>Chercher un trajet</h2>
+		</form>
+		<!-- Fin Bouton rechercher -->
+	
+
+		
+	
+		Vous souhaitez effectuer un trajet ? Entrez les villes de départ et d'arrivée, et la date où vous souhaitez effectuer ce trajet pour consulter les offres disponibles.
+
+		<!-- Choix Trajet -->
+		
+		<section>
+		<trajet>
+		<div class="container"> <br/>
+		<div class="span5">
+			<form class="form-inline well">
+			<label for="départements"><h3>Je souhaite me rendre</h3></label>
+					<form class="well form-search">
+					<br>de : <input type="text" id="départements" class="search-query" placeholder="Entrez une ville de départ" data-provide="typeahead">
+					<br><br>à : <input type="text" id="départements" class="search-query" placeholder="Entrez une ville d'arrivée" data-provide="typeahead">
+					<br><br>le : <input type="text" class="search-query" placeholder="jj/mm">
+					<br><br><button class="btn btn-info" type="submit">Recherche</button>
+					</form>		
+			</form>
+		</div>
+		</div>
+		</trajet>
+		<france>
+                    <img src="./images/villesfrance.gif"/>
+        </france>
+		</section>
+		
+		<!-- Fin Choix Departement -->
+		
+
+		
+		
+    </body>
+	
+	
+    <footer>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+		<script src="../bootstrap/js/bootstrap-typeahead.js"></script>
+		<script src="../bootstrap/js/bootstrap-carousel.js"></script>
+		<script>
+$(function (){
+   var deps = ['Ajaccio','Bastia','Bordeaux','Brest','Clermont-Ferrand','Douai','Grenoble','Lille','Lyon','Marseille','Montpellier','Nancy','Nantes','Nice','Paris','Rennes','Roubaix','Strasbourg','Toulon','Toulouse','Tours'];
+   $('#départements').typeahead({source: deps, items:3});
+});  
+</script>
+    </footer>
+</html>
